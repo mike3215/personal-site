@@ -1,0 +1,74 @@
+# Site settings
+title: Citruscups? Citruscups!
+email: michael@citruscups.com
+description: > # this means to ignore newlines until "baseurl:"
+  The personal blog for a software engineer and life long
+  learner. I intend to blog about my experiences with languages
+  I'm experimenting with and new technologies I come across.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.citruscups.com" # the base hostname & protocol for your site
+twitter_username: tweetmeharder
+github_username:  mike3215
+
+#used to display twitter cards
+twitter_handle: '@dirkfabisch'
+
+#blog logo
+logo: "/assets/images/df_logo.jpg"
+# blog cover
+cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+
+name: 'Michael Roberts'
+author: 'Michael Roberts'
+author_image: "/assets/images/author.jpg"
+
+paginate: 5
+permalink: /:year/:month/:day/:title/
+
+#fill in disqus shortname to use disqus
+#disqus: disqus-shortname
+
+# social icons and sharing options
+social:
+  - icon: twitter
+    url:  https://twitter.com/tweetmeharder
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+#  - icon:  facebook
+#    url: https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: https://www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+  - icon: github
+    url:  https://github.com/mike3215
+    desc: Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:  google-plus
+#    url: https://google.com/???
+#    desc:  Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
+
+
+# Build settings
+markdown: redcarpet
+highlighter: pygments
+
+gems: 
+  - octopress-image-tag
+  - octopress-video-tag
+  - octopress-codeblock
+  - octopress-quote-tag
+  - octopress-codefence
+  - octopress-solarized
+  - octopress-gist
+  - jemoji
